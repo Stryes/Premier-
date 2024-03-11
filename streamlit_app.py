@@ -1,7 +1,7 @@
 import streamlit as st
 name=st.text_input("Your name")
 st.write ("Hello"+name)
-import streamlit as st
+
 
 genre = st.radio(
     "What's your favorite movie genre",
