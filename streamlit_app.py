@@ -6,7 +6,7 @@ st.write ("Hello"+name)
 genre = st.radio(
     "What's your favorite movie genre",
     [":rainbow[Comedy]", "***Drama***", "Documentary :movie_camera:"],
-    captions = ["Laugh out loud.", "Get the popcorn.", "Never stop learning."])
+    captions = ["Laugh out loud.", "HIHIIHIH AHHAHAH.", "Never stop learning."])
 
 if genre == ':rainbow[Comedy]':
     st.write('You selected comedy.')
