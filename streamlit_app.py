@@ -17,6 +17,7 @@ input="lapin"
 list_possibilities=["rabbit","raco","rhyme","rogue"]
 correct_answer="rabbit"
 traduis: lapin 
+st.write("traduis"+input)
 for i in range (len(list-possibilities)):
     st.button(list-possibilities[i])
 
