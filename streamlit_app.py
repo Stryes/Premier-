@@ -16,6 +16,8 @@ else:
 input="lapin"
 list_possibilities=["rabbit","raco","rhyme","rogue"]
 traduis: lapin 
-st.button(list-possibilities[0])
+for i in range (len(list-possibilities)):
+    st.button(list-possibilities[i])
+
 
 
