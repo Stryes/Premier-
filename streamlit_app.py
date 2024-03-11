@@ -12,3 +12,10 @@ if genre == ':rainbow[Comedy]':
     st.write('You selected comedy.')
 else:
     st.write("You didn\'t select comedy.")
+
+input="lapin"
+list_possibilities=["rabbit","raco","rhyme","rogue"]
+traduis: lapin 
+st.button(list-possibilities[0])
+
+
