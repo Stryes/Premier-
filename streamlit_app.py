@@ -18,7 +18,7 @@ list_possibilities=["rabbit","raco","rhyme","rogue"]
 correct_answer="rabbit"
 st.write("Traduis"+input)
 for i in range (len(list_possibilities)):
-    st.button(list-possibilities[i])
+    st.button(list_possibilities[i])
 
 
 
