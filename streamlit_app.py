@@ -12,7 +12,7 @@ word_fr=voc['Définition'].values[j]
 st.write('Traduis: '+word_fr)
 
 def is_correct(i, j):
- if i==j:
+  if i==j:
    st.write("Bien joué !")
    if "indices" in st.session_state:
      del st.session_state["indices"]
