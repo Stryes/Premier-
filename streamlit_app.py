@@ -28,3 +28,5 @@ st.button("Primary button", type="primary")
 st.session_state["my_var"]=1
 if "my_var" in st.session_state
 del st.session_state["my_var"]
+st.session_state["indice"]=indice 
+det st.session_state["indice"]
