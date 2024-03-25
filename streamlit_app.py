@@ -16,9 +16,9 @@ def is_correct(i, j):
    st.write("Bien joué !")
    if "indices" in st.session_state:
      del st.session_state["indices"]
- else:
-   st.write("C'est perdu.")
-   st.session_state["indices"]=indices
+  else:
+    st.write("C'est perdu.")
+    st.session_state["indices"]=indices
 col1, col2 = st.columns(2) 
 with col1:
    for i in range(2):
