@@ -10,9 +10,9 @@ st.write('Traduis: '+word_fr)
 
 def is_correct(i, j):
   if i==j:
-    st.write("T'es trop forte !")
+    st.write("Bravosimooooo!")
   else:
-    st.write("T'es nul comme un caca!")
+    st.write("Perduuuuuuu!")
 
 col1, col2 = st.columns(2) 
 with col1:
