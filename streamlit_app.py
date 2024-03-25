@@ -4,9 +4,9 @@ import numpy as np
 voc = pd.read_csv( "https://docs.google.com/spreadsheets/d/e/2PACX-1vSeARXO3MT92XWpg2IwyQOQ8Wi2upeEkqJvNJz5i3bRqHdJIrTchGBBclVu-3Jd1ohYKM4IxecgV64I/pub?output=csv ")
 l = voc.shape[0]
 if "indices" in st.session_state:
- indices=st.session_state["indices"]
+  indices=st.session_state["indices"]
 else:
- indices = np.random.choice(l, size=4, replace=False)
+  indices = np.random.choice(l, size=4, replace=False)
 j = np.random.choice(indices)
 word_fr=voc['Définition'].values[j]
 st.write('Traduis: '+word_fr)
