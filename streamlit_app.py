@@ -21,8 +21,8 @@ def is_correct(i, j):
     st.session_state["indices"]=indices
 col1, col2 = st.columns(2) 
 with col1:
-   for i in range(2):
-       st.button(voc["Hanzi"].values[indices[i]], on_click= is_correct, args=(indices[i],j))
+  for i in range(2):
+    st.button(voc["Hanzi"].values[indices[i]], on_click= is_correct, args=(indices[i],j))
 with col2:
-   for i in range(2,4):
-       st.button(voc["Hanzi"].values[indices[i]], on_click= is_correct, args=(indices[i],j))
+  for i in range(2,4):
+    st.button(voc["Hanzi"].values[indices[i]], on_click= is_correct, args=(indices[i],j))
