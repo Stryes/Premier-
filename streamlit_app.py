@@ -10,7 +10,7 @@ st.write('Traduis: '+word_fr)
 
 def is_correct(i, j):
   if i==j:
-    st.write("Bravosimooooo!")
+    st.write("Bravo!")
   else:
     st.write("Perduuuuuuu!")
 
